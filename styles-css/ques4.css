@@ -1,0 +1,55 @@
+/* Container Styles */
+.container {
+    max-width: 800px;
+    margin: 20px;
+    border: 1px solid #000;
+    padding: 20px;
+    position: relative;
+}
+
+h1 {
+    font-family: serif;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+/* Sidenav Styles */
+.sidenav {
+    position: absolute;
+    left: 0;
+    top: 100px;
+    width: 50px;
+}
+
+.nav-button {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: width 0.3s ease;
+}
+
+/* Button Colors */
+.nav-button.green {
+    background-color: #00A67E;
+}
+
+.nav-button.blue {
+    background-color: #3498db;
+}
+
+.nav-button.red {
+    background-color: #e74c3c;
+}
+
+.nav-button.gray {
+    background-color: #555;
+}
+
+/* Hover Effect */
+.nav-button:hover {
+    width: 100px;
+}

@@ -1,0 +1,28 @@
+/* Custom styles to complement Bootstrap */
+.min-height-500 {
+    min-height: 500px;
+}
+
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.nav-link {
+    padding: 1rem !important;
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+/* Make the layout responsive */
+@media (max-width: 768px) {
+    .col-md-3 {
+        margin-top: 1rem;
+    }
+}

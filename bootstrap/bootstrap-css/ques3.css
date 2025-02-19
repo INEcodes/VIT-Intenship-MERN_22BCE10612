@@ -1,0 +1,38 @@
+/* Custom styles */
+.navbar-light .nav-link {
+    color: rgba(0, 0, 0, 0.55);
+}
+
+.navbar-light .nav-link:hover {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.card {
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.card-price {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.card-price small {
+    font-size: 1.25rem;
+}
+
+.list-unstyled li {
+    padding: 0.5rem 0;
+    color: #6c757d;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .navbar .d-flex {
+        display: none !important;
+    }
+    
+    .col-md-4 {
+        margin-bottom: 1.5rem;
+    }
+}

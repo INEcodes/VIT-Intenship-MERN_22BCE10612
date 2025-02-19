@@ -1,0 +1,71 @@
+/* CSS Code */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Vertical Navigation Styles */
+.vnav {
+    width: 300px;
+    border: 1px solid #000;
+}
+
+.vnav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.vnav li {
+    padding: 10px 20px;
+}
+
+.vnav li.home {
+    background-color: #FFA500;
+    color: white;
+    font-size: 24px;
+}
+
+.vnav li:not(.home) {
+    background-color: #E6F3F7;
+}
+
+.vnav a {
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+}
+
+/* Horizontal Navigation Styles */
+.hnav {
+    width: 100%;
+    max-width: 800px;
+    border: 1px solid #000;
+}
+
+.hnav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.hnav li {
+    padding: 10px 30px;
+    border-right: 1px solid #000;
+}
+
+.hnav li:last-child {
+    border-right: none;
+}
+
+.hnav li.home {
+    background-color: #808080;
+    color: white;
+    font-size: 20px;
+}
+
+.hnav a {
+    text-decoration: none;
+    color: blue;
+    font-size: 18px;
+}

@@ -1,0 +1,43 @@
+/* Table Styles */
+.directory-table {
+    width: 100%;
+    max-width: 1200px;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+.directory-table thead th {
+    background-color: #00A67E;
+    color: white;
+    padding: 12px 15px;
+    text-align: left;
+    font-weight: normal;
+}
+
+/* Body Styles */
+.directory-table tbody td {
+    padding: 12px 15px;
+}
+
+/* Alternating Row Colors */
+.directory-table tbody tr:nth-child(odd) {
+    background-color: #E8E8E8;
+}
+
+.directory-table tbody tr:nth-child(even) {
+    background-color: #FFFFFF;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+    .directory-table {
+        font-size: 14px;
+    }
+    
+    .directory-table td, 
+    .directory-table th {
+        padding: 8px 10px;
+    }
+}
