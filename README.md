@@ -1,1 +1,5 @@
-# assignment1
+# VIT-Intenship-MERN_22BCE10612
+
+MERN Assignment,
+
+22BCE10612
